@@ -47,8 +47,26 @@ body{
     font-size: 25px;
     margin-left: 5px;
 }
-.botao2{
-    background-color: black;
+.botao1{
+    background-color: #FDB927;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: white;
+    font-size: 25px;
+    margin-left: 5px;
+}
+.botao3{
+    background-color: #FFC72C;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: white;
+    font-size: 25px;
+    margin-left: 5px;
+}
+.botao21{
+    background-color: #FDB927;
     border-radius: 10px;
     padding-bottom: 5px;
     padding-top: 5px;
@@ -57,11 +75,33 @@ body{
     margin-top: 5px;
     margin-bottom: 25px;
 }
-.botao:hover{
-    color: black;
+.botao22{
+    background-color: #FFC72C;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: white;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+.botao1:hover{
+    color: #542583;
     background-color: white;
 }
-.botao2:hover{
+.botao3:hover{
+    color: #1D428A;
+    background-color: white;
+}
+.botao21:hover{
+    color: #542583;
+    background-color: white;
+}
+.botao22:hover{
+    color: #1D428A;
+    background-color: white;
+}
+.botao:hover{
     color: black;
     background-color: white;
 }
