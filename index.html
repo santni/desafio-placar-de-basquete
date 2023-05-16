@@ -15,16 +15,16 @@
         <div id="quadro_roxo">
             <h3>Lakers</h3>
             <img src="assets/images/lakers-PhotoRoom.png-PhotoRoom.png" alt="Lakers" width="256px" height="256px">
-            <p>1º Quarto:</p>
-            <p>2º Quarto:</p>
-            <p>3º Quarto:</p>
-            <p>4º Quarto:</p>
+            <p id="quarto1a">1º Quarto:</p>
+            <p id="quarto2a">2º Quarto:</p>
+            <p id="quarto3a">3º Quarto:</p>
+            <p id="quarto4a">4º Quarto:</p>
             <div class="flex_botao">
-                <button class="botao">1 Pontos</button>
-                <button class="botao">3 Pontos</button>
-                <button class="botao">2 Pontos</button>
+                <button class="botao" onclick="one('timeA')">1 Pontos</button>
+                <button class="botao" onclick="two('timeA')">3 Pontos</button>
+                <button class="botao" onclick="tree('timeA')">2 Pontos</button>
             </div>
-            <button class="botao2">Diminuir</button>
+            <button class="botao2" onclick="diminuir('timeA')">Diminuir</button>
         </div>
         <div id="quadro_result">
             <h3 id="titulo_quadro_azul">Placar Atual</h3>
@@ -37,16 +37,16 @@
         <div id="quadro_azul">
             <h3>Golden State Warriors</h3>
             <img src="assets/images/goldenstate-PhotoRoom.png-PhotoRoom.png" alt="Golden State Warriors" width="256px" height="256px">
-            <p>1º Quarto:</p>
-            <p>2º Quarto:</p>
-            <p>3º Quarto:</p>
-            <p>4º Quarto:</p>
+            <p id="quarto1b">1º Quarto:</p>
+            <p id="quarto2b">2º Quarto:</p>
+            <p id="quarto3b">3º Quarto:</p>
+            <p id="quarto4b">4º Quarto:</p>
             <div class="flex_botao">
-                <button class="botao">1 Pontos</button>
-                <button class="botao">2 Pontos</button>
-                <button class="botao">3 Pontos</button>
+                <button class="botao" onclick="one('timeB')">1 Pontos</button>
+                <button class="botao" onclick="two('timeB')">2 Pontos</button>
+                <button class="botao" onclick="tree('timeB')">3 Pontos</button>
             </div>
-            <button class="botao2">Diminuir</button>
+            <button class="botao2" onclick="diminuir('timeB')">Diminuir</button>
         </div>
     </div>
 </body>
