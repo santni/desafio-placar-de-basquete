@@ -1,3 +1,10 @@
+
+var timeA = 0
+var timeB = 0;
+var timeAf = 0;
+var timeBf = 0;
+let i = 1;
+
 function one(time) {
     if (time == 'timeA') {
         timeA += 1;
@@ -37,17 +44,14 @@ function diminuir(time) {
 }
 
 function encerrar() {
-   
-        document.getElementById("quarto1").innerHTML = timeA;
+    document.getElementById("quarto" + i + "a").innerHTML = timeA;
+    document.getElementById("quarto" + i + "b").innerHTML = timeB;
+    i++;
 
-        document.getElementById("quarto2").innerHTML = timeB;
+    timeAf += timeA;
+    timeBf += timeB;
     
     timeA = 0;
     timeB = 0;
 }
 
-
-
-
-var timeA = 0;
-var timeB = 0;
