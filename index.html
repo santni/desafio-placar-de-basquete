@@ -4,40 +4,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js"></script>
     <title>Placar de Basquete</title>
 </head>
 
 <body>
-    <h1>Desafio Basquete</h1>
+    <h1 id="titulos">Desafio Basquete</h1>
     <div id="quadros">
-        <div id="quadro_vermelho">
-            <h3>Equipe A</h3>
-            <p>1º Quarto:</p>
-            <p>2º Quarto:</p>
-            <p>3º Quarto:</p>
-            <p>4º Quarto:</p>
-            <div>
-                <p>1 Pontos</p>
-                <p>3 Pontos</p>
-                <p>2 Pontos</p>
-            </div>
-            <p>Diminuir</p>
-        </div>
-        <div>
-
-        </div>
         <div id="quadro_roxo">
-            <h3>Equipe B</h3>
+            <h3>Lakers</h3>
+            <img src="assets/images/lakers-PhotoRoom.png-PhotoRoom.png" alt="Lakers" width="256px" height="256px">
             <p>1º Quarto:</p>
             <p>2º Quarto:</p>
             <p>3º Quarto:</p>
             <p>4º Quarto:</p>
-            <div>
-                <p>1 Pontos</p>
-                <p>2 Pontos</p>
-                <p>3 Pontos</p>
+            <div class="flex_botao">
+                <button class="botao">1 Pontos</button>
+                <button class="botao">3 Pontos</button>
+                <button class="botao">2 Pontos</button>
             </div>
-            <p>Diminuir</p>
+            <button class="botao2">Diminuir</button>
+        </div>
+        <div id="quadro_result">
+            <h3 id="titulo_quadro_azul">Placar Atual</h3>
+            <img src="assets/images/cesta.png" alt="cesta de basquete" width="256px" height="256px">
+            <div>
+
+            </div>
+            <button class="botao">Encerrar Quarto</button>
+        </div>
+        <div id="quadro_azul">
+            <h3>Golden State Warriors</h3>
+            <img src="assets/images/goldenstate-PhotoRoom.png-PhotoRoom.png" alt="Golden State Warriors" width="256px" height="256px">
+            <p>1º Quarto:</p>
+            <p>2º Quarto:</p>
+            <p>3º Quarto:</p>
+            <p>4º Quarto:</p>
+            <div class="flex_botao">
+                <button class="botao">1 Pontos</button>
+                <button class="botao">2 Pontos</button>
+                <button class="botao">3 Pontos</button>
+            </div>
+            <button class="botao2">Diminuir</button>
         </div>
     </div>
 </body>

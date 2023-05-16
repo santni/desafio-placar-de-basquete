@@ -1,6 +1,70 @@
 body{
+    margin: 10px;
+    padding: 0;
     background-color: #f5f5f5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#titulos{
+    text-align: center;
+    font-size: 50px;
 }
 #quadros{
     display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+}
+#quadro_roxo{
+    background-color:#542583;
+    margin-right: 20px;
+    width: 550px;
+    border-radius: 10px;
+}
+#quadro_result{
+    background-color:lightgrey;
+    margin-right: 20px;
+    width: 550px;
+    border-radius: 10px;
+    color: black;
+}
+#quadro_azul{
+    background-color:#1D428A;
+    margin-right: 20px;
+    width: 550px;
+    border-radius: 10px;
+}
+.flex_botao{
+    display: flex;
+    margin-left: 100px;
+}
+.botao{
+    background-color: black;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: white;
+    font-size: 25px;
+    margin-left: 5px;
+}
+.botao2{
+    background-color: black;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: white;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+.botao:hover{
+    color: black;
+    background-color: white;
+}
+.botao2:hover{
+    color: black;
+    background-color: white;
+}
+#titulo_quadro_azul{
+    margin-bottom: 0px;
 }
