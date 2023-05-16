@@ -126,3 +126,8 @@ body{
 #nba{
     margin-bottom: 30px;
 }
+
+#vencedor {
+    text-align: center;
+    font-size: 50px;
+}
