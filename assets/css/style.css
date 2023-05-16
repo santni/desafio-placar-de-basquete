@@ -39,7 +39,7 @@ body{
     margin-left: 100px;
 }
 .botao{
-    background-color: black;
+    background-color: #c7112e;
     border-radius: 10px;
     padding-bottom: 5px;
     padding-top: 5px;
@@ -102,9 +102,23 @@ body{
     background-color: white;
 }
 .botao:hover{
-    color: black;
+    color: #c7112e;
     background-color: white;
 }
 #titulo_quadro_azul{
-    margin-bottom: 0px;
+    margin-bottom: 80px;
+}
+#placar{
+    color: #1D4289;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.num{
+    font-size: 120px;
+}
+#nba{
+    margin-bottom: 30px;
 }
