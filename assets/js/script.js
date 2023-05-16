@@ -83,14 +83,13 @@ function encerrar() {
     timeA = 0;
     timeB = 0;
     if(i == 5) {
+        
         if (pontoA > pontoB) {
             document.getElementById("win").innerHTML = "o vencedor é Lakers";
         } else {
             document.getElementById("win").innerHTML = "o vencedor é Warriors";
         }
-        
     }
-
 }
 
 
