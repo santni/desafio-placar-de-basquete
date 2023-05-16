@@ -107,6 +107,7 @@ body{
 }
 #titulo_quadro_azul{
     margin-bottom: 80px;
+    color: #1D4289;
 }
 #placar{
     color: #1D4289;
@@ -116,7 +117,10 @@ body{
     justify-content: center;
     margin-bottom: 20px;
 }
-.num{
+#num1{
+    font-size: 120px;
+}
+#num2{
     font-size: 120px;
 }
 #nba{
